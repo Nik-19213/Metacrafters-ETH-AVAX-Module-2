@@ -76,14 +76,6 @@ Feel free to explore the provided links to learn more about each technology. �
 
 The smart contract used in this project is named `Bank` present inside the `contracts/Bank.sol` file. It allows users to set an account name and transfer funds. The contract emits events for successful transfers and name updates.
 
-## Configuration ⚙️
-
-The `hardhat.config.js` file is used for configuring the Hardhat development environment. It specifies the Solidity version and required libraries to deploy contracts on the hardhat node.
-
-## Scripts 📜
-
-The `deploy.js` script, located in the `scripts` folder, is used to deploy the Bank contract. It uses Hardhat's `ethers` library to interact with the blockchain. This script is executed with the `npx hardhat run` command.
-
 ---
 
 This project is open-source
